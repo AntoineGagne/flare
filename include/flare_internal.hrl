@@ -13,6 +13,8 @@
     binary,
     {buffer, 65535},
     {nodelay, true},
+    {keepalive, true},
+    {show_econnreset, true},
     {packet, 4},
     {send_timeout, 5000},
     {send_timeout_close, true}
